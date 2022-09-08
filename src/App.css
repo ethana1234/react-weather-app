@@ -1,0 +1,10 @@
+/* margin will center the container */
+.container {
+  max-width: 1080px;
+  margin: 20px auto;
+  background-image: url('../public/background/day.jpg');
+}
+
+.container.night {
+  background-image: url('../public/background/night.jpg');
+}
